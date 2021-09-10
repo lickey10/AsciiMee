@@ -53,12 +53,12 @@ public class DisplayImageScript : MonoBehaviour {
         //TempStart ();
     }
 
-    private static Bitmap byteArrayToImage(byte[] byteArrayIn)
-    {
-        MemoryStream ms = new MemoryStream(byteArrayIn);
-        Bitmap returnImage = new Bitmap(ms);
-        return returnImage;
-    }
+    //private static Bitmap byteArrayToImage(byte[] byteArrayIn)
+    //{
+    //    MemoryStream ms = new MemoryStream(byteArrayIn);
+    //    Bitmap returnImage = new Bitmap(ms);
+    //    return returnImage;
+    //}
 
     public void Update()
 	{
